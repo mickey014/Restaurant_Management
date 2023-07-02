@@ -20,11 +20,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the system
+What things you need to download and install the system
 
 ```
-PHP 5.3.7 and higher
-MySQL 8.0+
+Xampp - (https://www.apachefriends.org/)
+Microsoft Visual Studio Code 2019 or Higher - (https://visualstudio.microsoft.com/downloads/)
 ```
 
 ### Installing
