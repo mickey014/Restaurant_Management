@@ -18,6 +18,12 @@ Providing food and drink services to guests in hotels and restaurants, showing a
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
+## Devices used
+```
+RFID - Refers to a wireless system comprised of two components: tags and readers. The reader is a device that has one or more antennas that emit radio waves and receive signals back from the RFID tag.
+SMS Module - Commonly referred to as "text messaging," is a service for sending short messages of up to 160 characters (224 character limit if using a 5-bit mode) to mobile devices, including cellular phones and smartphones.
+```
+
 ## Prerequisites
 
 ### What things you need to download and install the system
