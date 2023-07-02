@@ -22,11 +22,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### What things you need to download and install the system
 
-Xampp -  [https://www.apachefriends.org/](https://www.apachefriends.org/)
+Xampp -  [https://www.apachefriends.org/](https://www.apachefriends.org/) <br>
 Microsoft Visual Studio Code 2019 or Higher - [https://visualstudio.microsoft.com/downloads/](https://visualstudio.microsoft.com/downloads/)
 
-
-### Installing
+### Setup
 
 A step by step series of examples that tell you how to get a development in your localhost environment
 
@@ -38,7 +37,31 @@ and
 ```
 Setup the database and create your own resto_system database and
 import sql file on sql\resto_system.sql
+Admin Password = admin12345
 ```
 
+## Built With
+
+* [VB.NET](https://en.wikipedia.org/wiki/Visual_Basic_(.NET)) - Backend Language and Design used
+* [FlatIcon](https://www.flaticon.com/) - Icons use
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/license/mit/) file for details
+
+## Contact
+
+Kirk Anthony Mendoza - [@hi_im_kirk](https://twitter.com/hi_im_kirk) or Message me on my facebook account [Kirk Anthony Mendoza](https://www.facebook.com/mickey014/) <br>
+You can just email me for system just message me in kirkmendoza9@gmail.com or leave a message on (09309800034)<br>
+
+Project Link: [https://github.com/mickey014/Restaurant_Management](https://github.com/mickey014/Restaurant_Management)
+
+
+## Acknowledgments
+
+* My family and my love
+* Inspiration
+* Motivation
+* HardWorking
 
 
