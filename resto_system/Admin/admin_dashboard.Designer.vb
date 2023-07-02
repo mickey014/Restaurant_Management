@@ -27,7 +27,6 @@ Partial Class admin_dashboard
         Me.btn_logout_admin = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.btn_sales = New System.Windows.Forms.Button()
-        Me.btn_attendance = New System.Windows.Forms.Button()
         Me.btn_stocks = New System.Windows.Forms.Button()
         Me.btn_staff = New System.Windows.Forms.Button()
         Me.btn_categories = New System.Windows.Forms.Button()
@@ -49,7 +48,6 @@ Partial Class admin_dashboard
         Me.Panel1.Controls.Add(Me.btn_logout_admin)
         Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Controls.Add(Me.btn_sales)
-        Me.Panel1.Controls.Add(Me.btn_attendance)
         Me.Panel1.Controls.Add(Me.btn_stocks)
         Me.Panel1.Controls.Add(Me.btn_staff)
         Me.Panel1.Controls.Add(Me.btn_categories)
@@ -101,36 +99,15 @@ Partial Class admin_dashboard
         Me.btn_sales.ForeColor = System.Drawing.Color.White
         Me.btn_sales.Image = Global.resto_system.My.Resources.Resources.money_graph_with_up_arrow
         Me.btn_sales.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_sales.Location = New System.Drawing.Point(5, 756)
+        Me.btn_sales.Location = New System.Drawing.Point(4, 680)
         Me.btn_sales.Name = "btn_sales"
         Me.btn_sales.Padding = New System.Windows.Forms.Padding(5)
-        Me.btn_sales.Size = New System.Drawing.Size(382, 69)
+        Me.btn_sales.Size = New System.Drawing.Size(383, 69)
         Me.btn_sales.TabIndex = 1
         Me.btn_sales.Text = "Sales"
         Me.btn_sales.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btn_sales.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.btn_sales.UseVisualStyleBackColor = False
-        '
-        'btn_attendance
-        '
-        Me.btn_attendance.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.btn_attendance.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btn_attendance.FlatAppearance.BorderSize = 0
-        Me.btn_attendance.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray
-        Me.btn_attendance.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_attendance.Font = New System.Drawing.Font("Segoe UI Semibold", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_attendance.ForeColor = System.Drawing.Color.White
-        Me.btn_attendance.Image = Global.resto_system.My.Resources.Resources.id_card__2_
-        Me.btn_attendance.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_attendance.Location = New System.Drawing.Point(5, 680)
-        Me.btn_attendance.Name = "btn_attendance"
-        Me.btn_attendance.Padding = New System.Windows.Forms.Padding(5)
-        Me.btn_attendance.Size = New System.Drawing.Size(382, 69)
-        Me.btn_attendance.TabIndex = 1
-        Me.btn_attendance.Text = "Staff Attendance"
-        Me.btn_attendance.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btn_attendance.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.btn_attendance.UseVisualStyleBackColor = False
         '
         'btn_stocks
         '
@@ -311,7 +288,6 @@ Partial Class admin_dashboard
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Panel3 As Panel
     Friend WithEvents btn_dshboard As Button
-    Friend WithEvents btn_attendance As Button
     Friend WithEvents btn_staff As Button
     Friend WithEvents btn_categories As Button
     Friend WithEvents btn_menu As Button
