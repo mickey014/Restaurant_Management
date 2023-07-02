@@ -12,4 +12,4 @@ Providing food and drink services to guests in hotels and restaurants, showing a
 <p align="center"><img src="demo_picture_admin/login.png" height="200" width="350">&nbsp;&nbsp;<img src="demo_picture_admin/dashboard.png" height="200" width="350">&nbsp;&nbsp;</p>
 <p align="center"><img src="demo_picture_admin/menu.png" height="200" width="350">&nbsp;&nbsp;<img src="demo_picture_admin/categories.png" height="200" width="350"></p>
 <p align="center"><img src="demo_picture_admin/stocks.png" height="200" width="350">&nbsp;&nbsp;<img src="demo_picture_admin/account.png" height="200" width="350"></p>
-<img src="demo_picture_admin/sales.png" height="200" width="350">&nbsp;&nbsp;<img src="demo_picture_admin/transact.png" height="200" width="350">
+<p align="center"><img src="demo_picture_admin/sales.png" height="200" width="350"></p>
