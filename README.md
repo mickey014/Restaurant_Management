@@ -13,3 +13,33 @@ Providing food and drink services to guests in hotels and restaurants, showing a
 <p align="center"><img src="demo_picture_admin/menu.png" height="200" width="350">&nbsp;&nbsp;<img src="demo_picture_admin/categories.png" height="200" width="350"></p>
 <p align="center"><img src="demo_picture_admin/stocks.png" height="200" width="350">&nbsp;&nbsp;<img src="demo_picture_admin/account.png" height="200" width="350"></p>
 <p align="center"><img src="demo_picture_admin/sales.png" height="200" width="350"></p>
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+What things you need to install the system
+
+```
+PHP 5.3.7 and higher
+MySQL 8.0+
+```
+
+### Installing
+
+A step by step series of examples that tell you how to get a development in your localhost environment
+
+Say what the step will be
+```
+Clone or download the repository.
+```
+and
+```
+Setup the database and create your own resto_system database and
+import sql file on sql\resto_system.sql
+```
+
+
+
