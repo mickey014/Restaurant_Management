@@ -59,8 +59,10 @@ This project is licensed under the MIT License - see the [LICENSE](https://opens
 
 ## Contact
 
-Kirk Anthony Mendoza - [@hi_im_kirk](https://twitter.com/hi_im_kirk) or Message me on my facebook account [Kirk Anthony Mendoza](https://www.facebook.com/mickey014/) <br>
-You can just email me for system just message me in kirkmendoza9@gmail.com or leave a message on (09309800034)<br>
+Kirk Anthony Mendoza - [@hi_im_kirk](https://twitter.com/hi_im_kirk) <br>
+or message me on my facebook account [Kirk Anthony Mendoza](https://www.facebook.com/mickey014/) <br>
+You can just email me for system just message me in kirkmendoza9@gmail.com <br>
+or leave a message on 09309800034
 
 Project Link: [https://github.com/mickey014/Restaurant_Management](https://github.com/mickey014/Restaurant_Management)
 
