@@ -43,10 +43,10 @@ and
 ```
 Setup the database and create your own resto_system database and
 import sql file on sql\resto_system.sql
-<br>
+
 on microsoft visual studio code go to Tools > Nuget Package Manager > Nuget Package Manager for Solution
 then browse, search MySql.Data and install it.
-<br>
+
 Staff Username = kirk06
 Staff Password = kirk123
 Admin Password = admin12345
