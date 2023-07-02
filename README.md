@@ -20,8 +20,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Devices used
 
-* RFID - Refers to a wireless system comprised of two components: tags and readers. The reader is a device <br>that has one or more antennas that emit radio waves and receive signals back from the RFID tag.
-* SMS Module - Commonly referred to as "text messaging," is a service for sending short messages of up to 160 <br>characters (224 character limit if using a 5-bit mode) to mobile devices, including cellular phones and smartphones.
+* <b>RFID</b> - Refers to a wireless system comprised of two components: tags and readers. The reader is a device <br>that has one or more antennas that emit radio waves and receive signals back from the RFID tag.
+* <b>SMS Module</b> - Commonly referred to as "text messaging," is a service for sending short messages of up to 160 <br>characters (224 character limit if using a 5-bit mode) to mobile devices, including cellular phones and smartphones.
 
 
 ## Prerequisites
