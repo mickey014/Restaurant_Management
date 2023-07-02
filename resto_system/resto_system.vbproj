@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5D4343ED-E51F-4B79-87D7-A0C09D51D2E1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>resto_system.My.MyApplication</StartupObject>
+    <RootNamespace>resto_system</RootNamespace>
+    <AssemblyName>resto_system</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>resto_system.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>resto_system.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.29.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\add_admin.Designer.vb">
+      <DependentUpon>add_admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\add_admin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Categories\manage_cat.Designer.vb">
+      <DependentUpon>manage_cat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Categories\manage_cat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Menu\add_menu.Designer.vb">
+      <DependentUpon>add_menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Menu\add_menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Categories\add_update_ctg.Designer.vb">
+      <DependentUpon>add_update_ctg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Categories\add_update_ctg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\admin_home.Designer.vb">
+      <DependentUpon>admin_home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin_home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Menu\update_menu.Designer.vb">
+      <DependentUpon>update_menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Menu\update_menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Sales\manage_sales.Designer.vb">
+      <DependentUpon>manage_sales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Sales\manage_sales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Staff\manage_staff.Designer.vb">
+      <DependentUpon>manage_staff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Staff\manage_staff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Staff\update_staff.Designer.vb">
+      <DependentUpon>update_staff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Staff\update_staff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Stocks\manage_stock.Designer.vb">
+      <DependentUpon>manage_stock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Stocks\manage_stock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff\add_staff.Designer.vb">
+      <DependentUpon>add_staff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\add_staff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\admin_login.Designer.vb">
+      <DependentUpon>admin_login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin_login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\authenticate_admin_access.Designer.vb">
+      <DependentUpon>authenticate_admin_access.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\authenticate_admin_access.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="choose_user.Designer.vb">
+      <DependentUpon>choose_user.vb</DependentUpon>
+    </Compile>
+    <Compile Include="choose_user.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\admin_dashboard.Designer.vb">
+      <DependentUpon>admin_dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin_dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dbconnection.vb" />
+    <Compile Include="Staff\disc_form.Designer.vb">
+      <DependentUpon>disc_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\disc_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff\frm_quantity.Designer.vb">
+      <DependentUpon>frm_quantity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\frm_quantity.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff\frm_transaction.Designer.vb">
+      <DependentUpon>frm_transaction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\frm_transaction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff\last_transaction.Designer.vb">
+      <DependentUpon>last_transaction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\last_transaction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff\login_staff.Designer.vb">
+      <DependentUpon>login_staff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\login_staff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Menu\manage_menu.Designer.vb">
+      <DependentUpon>manage_menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Menu\manage_menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff\main_cashier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff\main_cashier.Designer.vb">
+      <DependentUpon>main_cashier.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Staff\view_products.Designer.vb">
+      <DependentUpon>view_products.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\view_products.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Admin\add_admin.resx">
+      <DependentUpon>add_admin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Categories\manage_cat.resx">
+      <DependentUpon>manage_cat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Menu\add_menu.resx">
+      <DependentUpon>add_menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Categories\add_update_ctg.resx">
+      <DependentUpon>add_update_ctg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\admin_home.resx">
+      <DependentUpon>admin_home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Menu\update_menu.resx">
+      <DependentUpon>update_menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Sales\manage_sales.resx">
+      <DependentUpon>manage_sales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Staff\manage_staff.resx">
+      <DependentUpon>manage_staff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Staff\update_staff.resx">
+      <DependentUpon>update_staff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Stocks\manage_stock.resx">
+      <DependentUpon>manage_stock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff\add_staff.resx">
+      <DependentUpon>add_staff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\admin_login.resx">
+      <DependentUpon>admin_login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\authenticate_admin_access.resx">
+      <DependentUpon>authenticate_admin_access.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="choose_user.resx">
+      <DependentUpon>choose_user.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\admin_dashboard.resx">
+      <DependentUpon>admin_dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff\disc_form.resx">
+      <DependentUpon>disc_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff\frm_quantity.resx">
+      <DependentUpon>frm_quantity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff\frm_transaction.resx">
+      <DependentUpon>frm_transaction.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff\last_transaction.resx">
+      <DependentUpon>last_transaction.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff\login_staff.resx">
+      <DependentUpon>login_staff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Menu\manage_menu.resx">
+      <DependentUpon>manage_menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff\main_cashier.resx">
+      <DependentUpon>main_cashier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff\view_products.resx">
+      <DependentUpon>view_products.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2203549_admin_avatar_human_login_user_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-in.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\211818_search_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9044354_exit_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\padlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18906-NRYBMS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undraw_Programming_re_kg9v.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undraw_People_re_8spw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vecteezy_customer-service-icon-user-with-laptop-computer-and_6017842-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restaurant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restaurant1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restaurant %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restaurant %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food-tray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\team.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group-chat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id-card %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id-card %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money-graph-with-up-arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\No_Product_Image_Available-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\No_Product_Image_Available-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boxes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cat_menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
