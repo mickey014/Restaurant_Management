@@ -18,14 +18,13 @@ Providing food and drink services to guests in hotels and restaurants, showing a
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
+## Prerequisites
 
-What things you need to download and install the system
+### What things you need to download and install the system
 
-```
 Xampp -  [https://www.apachefriends.org/](https://www.apachefriends.org/)
 Microsoft Visual Studio Code 2019 or Higher - [https://visualstudio.microsoft.com/downloads/](https://visualstudio.microsoft.com/downloads/)
-```
+
 
 ### Installing
 
