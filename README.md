@@ -70,12 +70,3 @@ or leave a message on 09309800034
 
 Project Link: [https://github.com/mickey014/Restaurant_Management](https://github.com/mickey014/Restaurant_Management)
 
-
-## Acknowledgments
-
-* My family and my love
-* Inspiration
-* Motivation
-* HardWorking
-
-
