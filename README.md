@@ -61,13 +61,12 @@ Admin Password = admin12345
 
 This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/license/mit/) website for details
 
-## Contact
-### Get in touch with me
+## Get in touch with me
 
 Twitter - [@hi_im_kirk](https://twitter.com/hi_im_kirk) <br>
 Facebook - Message me on my facebook account [Kirk Anthony Mendoza](https://www.facebook.com/mickey014/) <br>
 Email - You can just email me for system just message me in kirkmendoza9@gmail.com <br>
-Contact# - Leave a message on 09309800034
+Contact# - Leave a message on 0930-980-0034
 
 Project Link: [https://github.com/mickey014/Restaurant_Management](https://github.com/mickey014/Restaurant_Management)
 
