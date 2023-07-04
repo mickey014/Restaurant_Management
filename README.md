@@ -44,6 +44,8 @@ and
 Setup the database and create your own resto_system database and
 import sql file on sql\resto_system.sql
 
+In directory Just Look into resto_system.sln and hit enter
+
 on microsoft visual studio code go to Tools > Nuget Package Manager > Nuget Package Manager for Solution
 then browse, search MySql.Data and install it.
 
